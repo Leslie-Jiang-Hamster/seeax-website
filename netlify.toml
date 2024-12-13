@@ -1,2 +1,5 @@
-[[plugins]]
+[plugins]
   package = "@netlify/plugin-nextjs"
+[build]
+  publish = ".next" # 设置为导出的目录
+  command = "npm run build && npm run export"
