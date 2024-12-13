@@ -104,7 +104,7 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}>
           <AnimatedWords
-            title='Seeax Xin'
+            title='Seea Xin'
             style='inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4'
           />
           <motion.div
