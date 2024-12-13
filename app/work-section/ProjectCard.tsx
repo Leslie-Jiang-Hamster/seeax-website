@@ -113,7 +113,7 @@ const ProjectCard = ({
               charSpace={'mr-[0.01em]'}
               key={id}
               className={
-                'text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] '
+                'text-[14px] font-bold uppercase sm:text-[10px] md:text-[16px] lg:text-[18px] '
               }
             />
           ))}
