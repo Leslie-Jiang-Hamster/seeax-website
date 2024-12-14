@@ -34,7 +34,18 @@ const Hero = () => {
       <motion.div className='absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#f6f2ea] mix-blend-color'></motion.div>
 
       <div className='absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]'>
-        <div></div>
+        <div>
+          <Link
+            href='https://cal.com/victorwilliams/30min'
+            target='_blank'
+            aria-label='BOOK A CALL'>
+            <motion.button
+              className='-mt-3 -ml-1 hidden rounded-md border-2 border-black py-2 px-4 text-[14px] font-semibold text-black sm:block  md:text-[14px] lg:block'
+              variants={bodyAnimation}>
+              BOOK A CALL
+            </motion.button>
+          </Link>
+        </div>
 
         <div className='flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14'>
           <Link
@@ -100,9 +111,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='-mt-36 flex flex-col items-start justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 w-[70%]'>
+      <div className='-mt-36 flex flex-col items-start justify-center sm:-mt-20 lg:my-40 lg:mt-25 lg:py-40 w-[70%]'>
         <div
-          id='color-drift'
           className={`relative flex flex-col justify-center items-center ${monaSans.className}`}>
           <AnimatedWords
             title='Seea Xin'
