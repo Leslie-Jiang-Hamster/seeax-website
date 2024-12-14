@@ -59,19 +59,6 @@ const ProjectCard = ({
             'mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] '
           }
         />
-        <div className='mt-9 flex gap-4'>
-          {technologies.map((tech, id) => (
-            <AnimatedTitle
-              text={tech}
-              wordSpace={'mr-[0.25em]'}
-              charSpace={'mr-[0.01em]'}
-              key={id}
-              className={
-                'text-[14px] font-bold uppercase sm:text-[10px] md:text-[16px] lg:text-[18px] '
-              }
-            />
-          ))}
-        </div>
       </div>
     </motion.div>
   );
