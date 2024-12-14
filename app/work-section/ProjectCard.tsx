@@ -29,7 +29,7 @@ const ProjectCard = ({
           position: 'relative',
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
+      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[500px] md:w-[100%]`}
       initial='initial'
       animate='animate'>
       <Image
@@ -39,52 +39,6 @@ const ProjectCard = ({
           id % 2 === 0 ? 'right-0' : 'left-0'
         }`}
       />
-      <div
-        className={`absolute top-0 text-[#0E1016] ${
-          id % 2 === 0 ? 'left-0 ml-8 lg:ml-14' : 'right-0 mr-8 lg:mr-14'
-        } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}>
-        {available ? (
-          <>
-            <Link
-              href={demo}
-              target='_blank'
-              aria-label='Open Live Demo'>
-              <FontAwesomeIcon
-                icon={faLink}
-                className=' w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]'
-                data-blobity
-                data-blobity-radius='38'
-                data-blobity-offset-x='4'
-                data-blobity-offset-y='4'
-                data-blobity-magnetic='trues'
-              />
-            </Link>
-          </>
-        ) : (
-          <div className=' flex items-center justify-center gap-4'>
-            <Link
-              href={github}
-              target='_blank'
-              className='mt-1 rounded-full'
-              aria-label='Open GitHub Repository'>
-              <FontAwesomeIcon
-                icon={faGithub}
-                className=' w-[20px]  rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]'
-                data-blobity
-                data-blobity-radius='38'
-                data-blobity-offset-x='4'
-                data-blobity-offset-y='4'
-                data-blobity-magnetic='true'
-              />
-            </Link>
-            <div className=' rounded-xl bg-white px-4 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4'>
-              <h3 className='text-[16px] md:text-[18px] lg:text-[20px] '>
-                Coming soon
-              </h3>
-            </div>
-          </div>
-        )}
-      </div>
       <div
         className={`absolute text-white  ${
           !(id % 2 === 0)
