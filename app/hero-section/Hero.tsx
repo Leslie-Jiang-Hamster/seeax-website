@@ -111,6 +111,19 @@ const Hero = () => {
         </div>
       </div>
 
+      <Image
+        src={'/avatar.jpg'}
+        width={60}
+        height={60}
+        alt='Profile'
+        className='absolute hidden lg:block'
+        style={{
+          borderRadius: '50%',
+          top: '20rem',
+          right: '13rem',
+        }}
+      />
+
       <div className='-mt-36 flex flex-col items-start justify-center sm:-mt-20 lg:my-40 lg:mt-25 lg:py-40 w-[70%]'>
         <div
           className={`relative flex flex-col justify-center items-center ${monaSans.className}`}>
