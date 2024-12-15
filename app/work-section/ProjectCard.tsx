@@ -28,10 +28,10 @@ const ProjectCard = ({
           backgroundPosition: 'center center',
           position: 'relative',
           filter: 'grayscale(100%)',
-          transition: 'filter 1.5s',
+          transition: 'filter 1s',
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[550px] w-full items-stretch justify-center overflow-hidden rounded-2xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[400px] md:w-[100%] grid place-items-center`}
+      className={`relative z-10 h-[400px] w-full items-stretch justify-center overflow-hidden rounded-2xl bg-center py-0 grid place-items-center md:h-[350px] lg:h-[400px] max-w-[350px]`}
       initial='initial'
       animate='animate'>
       <Image
@@ -42,7 +42,7 @@ const ProjectCard = ({
       <AnimatedTitle
         text={name}
         className={
-          'max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[38px] lg:leading-none mt-60'
+          'max-w-[90%] text-[40px] leading-none text-white md:text-[30px] md:leading-none lg:max-w-[450px] lg:text-[36px] lg:leading-none mt-60'
         }
         wordSpace={'mr-[0.25em]'}
         charSpace={'-mr-[0.01em]'}
@@ -50,7 +50,7 @@ const ProjectCard = ({
       <AnimatedBody
         text={description}
         className={
-          '-mt-6 w-[80%] max-w-[457px] text-[16px] font-semibold text-[#95979D] '
+          '-mt-4 w-[80%] max-w-[457px] text-[16px] font-semibold text-[#95979D] '
         }
       />
     </motion.div>

@@ -23,8 +23,7 @@ export const devProjects = [
   {
     id: 1,
     name: 'Interlock',
-    description:
-      'A website for a Fintech Startup to showcase their innovative solutions.',
+    description: 'Website for a Fintech Startup to showcase innovation.',
     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com/victorcodess/interlock',
     demo: 'https://interlock-teal.vercel.app/',

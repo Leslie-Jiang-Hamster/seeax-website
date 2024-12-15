@@ -27,7 +27,7 @@ const Hero = () => {
   }, []);
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.gif')] bg-[size:40%] bg-no-repeat bg-right py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
+      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center md:bg-[url('.//../public/hero.gif')] bg-[size:40%] bg-no-repeat bg-right py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
       id='home'
       initial='initial'
       animate='animate'>
@@ -116,15 +116,16 @@ const Hero = () => {
         width={60}
         height={60}
         alt='Profile'
-        className='absolute hidden lg:block'
+        className='absolute hidden md:block'
         style={{
           borderRadius: '50%',
-          top: '20rem',
-          right: '13rem',
+          top: '44vh',
+          right: '20%',
+          marginRight: '-30px',
         }}
       />
 
-      <div className='-mt-36 flex flex-col items-start justify-center sm:-mt-20 lg:my-40 lg:mt-25 lg:py-40 w-[70%]'>
+      <div className='-mt-36 flex flex-col items-start justify-center sm:-mt-20 lg:my-40 lg:mt-25 lg:py-40 md:w-[70%]'>
         <div
           className={`relative flex flex-col justify-center items-center ${monaSans.className}`}>
           <AnimatedWords
