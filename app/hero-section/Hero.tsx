@@ -36,7 +36,7 @@ const Hero = () => {
       <div className='absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]'>
         <div>
           <Link
-            href='https://cal.com/victorwilliams/30min'
+            href='https://cal.com/seeax/30min'
             target='_blank'
             aria-label='BOOK A CALL'>
             <motion.button

@@ -41,3 +41,7 @@ body {
 * {
   color: black;
 }
+
+div:hover {
+  filter: none !important;
+}

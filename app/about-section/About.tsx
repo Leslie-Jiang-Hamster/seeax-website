@@ -70,16 +70,6 @@ const About = () => {
                 'Led "Intelligent Euryale Seed Picking Machine" proj. & developed Lightbattle H5 game. '
               }
             />
-            <AnimatedBody
-              text={'Extra-Curriculars: '}
-              bold={true}
-            />
-            <AnimatedBody
-              text={
-                'Debated with other colleges in Mech. Sci. & Eng. Debate Team. '
-              }
-            />
-            <AnimatedBody text={"Joined EMSA int'l student roundtables."} />
           </div>
 
           <div className='mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]'></div>
