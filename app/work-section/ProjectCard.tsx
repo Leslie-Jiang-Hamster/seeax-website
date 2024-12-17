@@ -31,18 +31,18 @@ const ProjectCard = ({
           transition: 'filter 1s',
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[400px] w-full items-stretch justify-center overflow-hidden rounded-2xl bg-center py-0 grid place-items-center md:h-[350px] lg:h-[400px] max-w-[350px]`}
+      className={`relative z-10 h-[400px] w-full items-stretch justify-center overflow-hidden rounded-2xl bg-center py-0 grid place-items-center lg:h-[400px] max-w-[350px]`}
       initial='initial'
       animate='animate'>
       <Image
         src={image}
         alt={name}
-        className={`h-[220px] absolute w-full rounded-2xl object-cover`}
+        className={`h-[220px] absolute w-full object-cover`}
       />
       <AnimatedTitle
         text={name}
         className={
-          'max-w-[90%] text-[40px] leading-none text-white md:text-[30px] md:leading-none lg:max-w-[450px] lg:text-[30px] lg:leading-none mt-60 text-center'
+          'max-w-[90%] text-[22px] leading-none text-white md:text-[26px] md:leading-none lg:max-w-[450px] lg:text-[30px] lg:leading-none mt-60 text-center translate-y-2'
         }
         wordSpace={'mr-[0.25em]'}
         charSpace={'-mr-[0.01em]'}

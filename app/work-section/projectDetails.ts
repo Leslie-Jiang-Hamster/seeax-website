@@ -34,8 +34,7 @@ export const devProjects = [
   {
     id: 2,
     name: 'Echoes of Nuo',
-    description:
-      'Digital platform dedicated to revitalizing Nuo opera, an intangible Chinese cultural heritage',
+    description: 'Digital platform dedicated to revitalizing Nuo opera.',
     technologies: ['React', 'Next.js', 'Prismic CMS'],
     github: 'https://github.com/victorcodess/synthetix',
     demo: 'https://synthetix-iota.vercel.app/',
@@ -69,7 +68,7 @@ export const devProjects = [
     technologies: ['JavaScript', 'CSS', "Bit.ly's API"],
     github: 'https://github.com/victorcodess/url-shortener',
     demo: 'https://url-shortener-nine-delta.vercel.app',
-    image: require('.//../../public/projects/5.png'),
+    image: require('.//../../public/projects/5.jpg'),
     available: true,
   },
   // {

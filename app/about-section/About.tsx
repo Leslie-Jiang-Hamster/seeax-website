@@ -2,6 +2,7 @@ import SongCarousel from './SongCarousel';
 import '../animations/animate.css';
 import AnimatedBody from '../animations/AnimatedBody';
 import AnimatedTitle from '../animations/AnimatedTitle';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -31,6 +32,20 @@ const About = () => {
               }
             />
             <AnimatedBody text={"I'm constantly seeking unlimited progress."} />
+            <Image
+              src='/avatar.jpg'
+              alt='my image'
+              width={200}
+              height={200}
+              className='hidden lg:block absolute right-24 rounded-full object-cover -translate-y-12'
+            />
+            <Image
+              src='/icons/hands.png'
+              alt='my image'
+              width={200}
+              height={200}
+              className='hidden lg:block absolute right-24 rounded-full object-cover translate-y-20'
+            />
             {/*
             <AnimatedBody
               text={
