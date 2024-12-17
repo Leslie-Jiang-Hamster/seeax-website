@@ -141,21 +141,14 @@ const Hero = () => {
       <div
         className='absolute bottom-10 flex items-center 
       justify-center
-      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between'>
+      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-end'>
         <motion.div
           className='  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]'
           variants={bodyAnimation}>
-          <p className='z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left'>
-            UI/UX Designer, currently at Wuhan.
+          <p className='z-50 text-center text-[16px] font-medium text-[#d2cbc3] md:text-[20px]'>
+            UI/UX Designer, China.
+            <br />
             {' (UTC+8) ' + formatter.format(clock)}
-          </p>
-        </motion.div>
-
-        <motion.div
-          className='  hidden max-w-[500px] lg:block lg:max-w-[420px]'
-          variants={bodyAnimation}>
-          <p className='text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]'>
-            Focused on interfaces and experiences.
           </p>
         </motion.div>
       </div>

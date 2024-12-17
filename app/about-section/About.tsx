@@ -22,14 +22,16 @@ const About = () => {
           <div className='mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] '>
             <AnimatedBody
               text={
-                "I specialize in academic excellence, project innovation, and diverse involvements. I'm passionate about holistic growth and impact."
+                "I'm a person with a wide range of hobbies. I love reading detective novels and delving into the details of movies. I also enjoy planning and management."
               }
             />
             <AnimatedBody
               text={
-                "Beyond my achievements, I'm an active campus contributor. In the Ice Rock Workshop Design Team and Huazhong Univ. EMSA, I've made significant contributions."
+                'When it comes to outdoor activities, cycling, hiking and rock climbing are my favorites. Spending time with family and chatting with friends always make me happy.'
               }
             />
+            <AnimatedBody text={"I'm constantly seeking unlimited progress."} />
+            {/*
             <AnimatedBody
               text={
                 'When free, I debate, engage in international exchanges, or enjoy hobbies. '
@@ -69,7 +71,7 @@ const About = () => {
               text={
                 'Led "Intelligent Euryale Seed Picking Machine" proj. & developed Lightbattle H5 game. '
               }
-            />
+            /> */}
           </div>
 
           <div className='mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]'></div>

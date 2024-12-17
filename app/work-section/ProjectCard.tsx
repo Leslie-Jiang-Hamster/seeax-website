@@ -37,12 +37,12 @@ const ProjectCard = ({
       <Image
         src={image}
         alt={name}
-        className={`absolute w-full rounded-2xl`}
+        className={`h-[220px] absolute w-full rounded-2xl object-cover`}
       />
       <AnimatedTitle
         text={name}
         className={
-          'max-w-[90%] text-[40px] leading-none text-white md:text-[30px] md:leading-none lg:max-w-[450px] lg:text-[36px] lg:leading-none mt-60'
+          'max-w-[90%] text-[40px] leading-none text-white md:text-[30px] md:leading-none lg:max-w-[450px] lg:text-[30px] lg:leading-none mt-60 text-center'
         }
         wordSpace={'mr-[0.25em]'}
         charSpace={'-mr-[0.01em]'}
@@ -50,7 +50,7 @@ const ProjectCard = ({
       <AnimatedBody
         text={description}
         className={
-          '-mt-4 w-[80%] max-w-[457px] text-[16px] font-semibold text-[#95979D] '
+          '-mt-4 w-[80%] max-w-[457px] text-[15px] font-semibold text-[#95979D] text-center'
         }
       />
     </motion.div>
