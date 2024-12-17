@@ -35,7 +35,7 @@ const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 6,
+        delay: 3,
         ease: [0.2, 0.65, 0.3, 0.9],
         duration: 1,
       },

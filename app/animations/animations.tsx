@@ -81,7 +81,7 @@ export const bodyAnimation = {
     opacity: 1,
     y: `0em`,
     transition: {
-      delay: 5.5,
+      delay: 3.5,
       duration: 1,
       ease: [0.2, 0.65, 0.3, 0.9],
     },
