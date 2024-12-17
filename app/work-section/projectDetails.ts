@@ -45,7 +45,7 @@ export const devProjects = [
   {
     id: 3,
     name: 'Mooyland',
-    description: '',
+    description: 'Design of the Disney Fantasyland',
     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com/victorcodess/propellent',
     demo: 'https://propellent.vercel.app/',
@@ -55,7 +55,7 @@ export const devProjects = [
   {
     id: 4,
     name: '3D Card',
-    description: '',
+    description: 'Personal business card design',
     technologies: ['React', 'CSS', 'Chart.js'],
     github: 'https://github.com/victorcodess/weather-forecast-website',
     demo: 'https://sky-watch.vercel.app/',
@@ -65,7 +65,7 @@ export const devProjects = [
   {
     id: 5,
     name: 'Mask Puzzle',
-    description: '',
+    description: 'Design of opera toy puzzles',
     technologies: ['JavaScript', 'CSS', "Bit.ly's API"],
     github: 'https://github.com/victorcodess/url-shortener',
     demo: 'https://url-shortener-nine-delta.vercel.app',
