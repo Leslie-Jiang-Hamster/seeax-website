@@ -145,7 +145,7 @@ const Hero = () => {
         <motion.div
           className='  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]'
           variants={bodyAnimation}>
-          <p className='z-50 text-center text-[16px] font-medium text-[#d2cbc3] md:text-[20px]'>
+          <p className='z-50 text-center text-[16px] font-medium text-[#d2cbc3] md:text-[20px] translate-y-6'>
             UI/UX Designer, China.
             <br />
             {' (UTC+8) ' + formatter.format(clock)}
